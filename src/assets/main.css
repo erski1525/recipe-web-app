@@ -3,6 +3,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color-primary: #379777;
+    --color-light: #F5F7F8
+}
+
+body{
+    margin: 0;
+}
+
 ul{
     list-style: none;
     padding: 0;
@@ -20,10 +29,18 @@ ul{
 
 .container__content{
     flex: 1;
-    padding-left: 1em;
-    margin-top: 1rem;
-
+    padding: 1em;
+    background-color: var(--color-light);
+    min-height: 100vh;    
 }
+
+.icon__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
 /* || NAV */
 
 .nav{
@@ -34,10 +51,6 @@ ul{
     width: 20%;
 }
 
-.nav__list{
-
-}
-
 .link{
     margin: 1rem 0;
     text-decoration: none;
@@ -45,13 +58,14 @@ ul{
 }
 
 .link:hover{
-    color: gray;
+    color: var(--color-primary);
 }
 
 /* || FORM */
 
 .search{
     display: flex;
+    max-width: 50%;
 }
 
 .search__input{
@@ -60,24 +74,20 @@ ul{
 }
 
 .search__submit{
-
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0 .5rem .5rem 0;
+    border-left: none;
 }
 
 /* || RECIPES */
 
 .recipes__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.recipes__item{
-    border-bottom: solid 1px black;
-    padding: 1em 1em;
-}
-
-.recipes__item:hover{
-    cursor: pointer;
-    border-color: gray;
-    color: gray;
-}
 
 /* || PAGINATION */
 
@@ -85,3 +95,30 @@ ul{
     display: flex;
     justify-content: end;
 }
+
+/* || RECIPE CARD */
+
+.recipe{
+    min-width: 300px;
+    background-color: #FFF;
+    border-radius: .5rem;
+}
+
+.recipe__img{
+    height: 200px;
+    background-color: black;
+    margin: 1rem 0;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.recipe__title{
+    margin-top: 0;
+    text-align: center;
+}
+
+.recipe__description{
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+

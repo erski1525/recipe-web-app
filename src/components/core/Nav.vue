@@ -77,6 +77,7 @@ const hideMenu = () => {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: white;
     }
 
     .nav__list{

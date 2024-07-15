@@ -38,10 +38,6 @@ import PersonIcon from '../icons/PersonIcon.vue';
     max-width: 600px;
 }
 
-.recipe:hover{
-    cursor: pointer;
-}
-
 .recipe__img{
     width: 100%;
     object-fit: cover;
@@ -84,6 +80,9 @@ import PersonIcon from '../icons/PersonIcon.vue';
     position: relative;
 }
 
+.recipe:hover{
+    cursor: pointer;
+}
 .recipe:hover .overlay::after{
     content: '\A';
     position: absolute;

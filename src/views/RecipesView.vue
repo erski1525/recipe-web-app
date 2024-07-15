@@ -6,26 +6,6 @@ import SearchIcon from '../components/icons/SearchIcon.vue';
 </script>
 <template>
     <div class="container">
-        <nav class="nav">
-        <h3 class="logo">Logo</h3>
-        <ul class="nav__list">
-            <li class="link">
-                <RouterLink :to="{name: 'recipes'}" class="link">
-                    Recipes
-                </RouterLink>
-            </li>
-            <li class="link">
-                <RouterLink :to="{name: 'recipes'}" class="link">
-                    Favorite
-                </RouterLink>
-            </li>
-            <li class="link">
-                <RouterLink :to="{name: 'recipes'}" class="link">
-                    Settings
-                </RouterLink>
-            </li>
-        </ul>
-        </nav>
         <div class="container__content">
             <div>
                 <form class="search">
@@ -33,67 +13,7 @@ import SearchIcon from '../components/icons/SearchIcon.vue';
                 <button class="search__submit"><SearchIcon/></button>
                 </form>
             <ul class="recipes__list">
-                <li>
-                    <div class="recipe">
-                        <img class="recipe__img" src="../assets/default.jpg"/>
-                        <p class="recipe__title">Pizza</p>
-                        <div class="recipe__description">
-                            <div class="icon__wrapper">
-                                <ClockIcon/>
-                                20min
-                            </div>
-                            <div class="icon__wrapper">
-                                <CartIcon/>
-                                12,99 zł
-                            </div>
-                            <div class="icon__wrapper">
-                                <PersonIcon/>
-                                2 osoby
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="recipe">
-                        <img class="recipe__img" src="../assets/default.jpg"/>
-                        <p class="recipe__title">Pizza</p>
-                        <div class="recipe__description">
-                            <div class="icon__wrapper">
-                                <ClockIcon/>
-                                20min
-                            </div>
-                            <div class="icon__wrapper">
-                                <CartIcon/>
-                                12,99 zł
-                            </div>
-                            <div class="icon__wrapper">
-                                <PersonIcon/>
-                                2 osoby
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="recipe">
-                        <img class="recipe__img" src="../assets/default.jpg"/>
-                        <p class="recipe__title">Pizza</p>
-                        <div class="recipe__description">
-                            <div class="icon__wrapper">
-                                <ClockIcon/>
-                                20min
-                            </div>
-                            <div class="icon__wrapper">
-                                <CartIcon/>
-                                12,99 zł
-                            </div>
-                            <div class="icon__wrapper">
-                                <PersonIcon/>
-                                2 osoby
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
+                <li v-for="i in 20">
                     <div class="recipe">
                         <img class="recipe__img" src="../assets/default.jpg"/>
                         <p class="recipe__title">Pizza</p>

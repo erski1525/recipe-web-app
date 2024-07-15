@@ -124,7 +124,7 @@ const hideMenu = () => {
         color: black;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         .hideOnMobile{
             display: none;
         }

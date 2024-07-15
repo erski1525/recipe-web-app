@@ -63,9 +63,15 @@ import PersonIcon from '../icons/PersonIcon.vue';
     align-items: center;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .recipe{
         max-width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .recipe{
+        max-width: 20%;
     }
 }
 </style>

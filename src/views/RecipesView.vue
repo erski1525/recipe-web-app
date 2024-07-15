@@ -13,21 +13,17 @@ import RecipeCard from '../components/recipe/RecipeCard.vue';
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     padding: 0 1em;
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .recipes__list{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .recipe{
-        max-width: 30%;
     }
 }
 </style>

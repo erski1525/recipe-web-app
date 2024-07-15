@@ -35,7 +35,7 @@ import SearchIcon from '../components/icons/SearchIcon.vue';
             <ul class="recipes__list">
                 <li>
                     <div class="recipe">
-                        <div class="recipe__img"></div>
+                        <img class="recipe__img" src="../assets/default.jpg"/>
                         <p class="recipe__title">Pizza</p>
                         <div class="recipe__description">
                             <div class="icon__wrapper">
@@ -55,7 +55,7 @@ import SearchIcon from '../components/icons/SearchIcon.vue';
                 </li>
                 <li>
                     <div class="recipe">
-                        <div class="recipe__img"></div>
+                        <img class="recipe__img" src="../assets/default.jpg"/>
                         <p class="recipe__title">Pizza</p>
                         <div class="recipe__description">
                             <div class="icon__wrapper">
@@ -75,7 +75,7 @@ import SearchIcon from '../components/icons/SearchIcon.vue';
                 </li>
                 <li>
                     <div class="recipe">
-                        <div class="recipe__img"></div>
+                        <img class="recipe__img" src="../assets/default.jpg"/>
                         <p class="recipe__title">Pizza</p>
                         <div class="recipe__description">
                             <div class="icon__wrapper">
@@ -95,7 +95,7 @@ import SearchIcon from '../components/icons/SearchIcon.vue';
                 </li>
                 <li>
                     <div class="recipe">
-                        <div class="recipe__img"></div>
+                        <img class="recipe__img" src="../assets/default.jpg"/>
                         <p class="recipe__title">Pizza</p>
                         <div class="recipe__description">
                             <div class="icon__wrapper">

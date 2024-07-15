@@ -85,7 +85,7 @@ ul{
 .recipes__list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 1rem;
 }
 
 
@@ -99,21 +99,26 @@ ul{
 /* || RECIPE CARD */
 
 .recipe{
-    min-width: 300px;
+    width: 300px;
     background-color: #FFF;
     border-radius: .5rem;
+    overflow: hidden
+}
+
+.recipe:hover{
+    cursor: pointer;
 }
 
 .recipe__img{
-    height: 200px;
-    background-color: black;
-    margin: 1rem 0;
-    border-radius: .5rem .5rem 0 0;
+    width: 296px;
+    margin-bottom: 1rem;
 }
 
 .recipe__title{
     margin-top: 0;
     text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--color-primary);
 }
 
 .recipe__description{

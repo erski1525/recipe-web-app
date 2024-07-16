@@ -17,13 +17,16 @@ import RecipeCard from '../components/recipe/RecipeCard.vue';
     gap: 1rem;
     padding: 0 1em;
 }
-
+@media (min-width: 600px) {
+    .recipes__list{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
 @media (min-width: 800px) {
     .recipes__list{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
 }
 </style>

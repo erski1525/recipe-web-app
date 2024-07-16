@@ -101,15 +101,4 @@ const router = useRouter();
     border-right: solid 2px var(--color-primary);
 }
 
-@media (min-width: 800px) {
-    .recipe{
-        max-width: 30%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .recipe{
-        max-width: 20%;
-    }
-}
 </style>

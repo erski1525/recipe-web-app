@@ -25,8 +25,8 @@ const hideMenu = () => {
                 </RouterLink>
             </li>
             <li class="hideOnMobile">
-                <RouterLink class="link" :to="{name: 'recipes'}">
-                    Recipes
+                <RouterLink class="link" :to="{name: 'addRecipe'}">
+                    Add recipe
                 </RouterLink>
             </li>
             <li class="hideOnMobile"> 
@@ -47,22 +47,22 @@ const hideMenu = () => {
             <li class="close">
                 <CloseIcon @click="hideMenu()"/>
             </li>
-            <li>
+            <li @click="hideMenu()">
                 <RouterLink class="link" :to="{name: 'recipes'}">
                     Recipes
                 </RouterLink>
             </li>
-            <li>
+            <li @click="hideMenu()">
+                <RouterLink class="link" :to="{name: 'addRecipe'}">
+                    Add recipe
+                </RouterLink>
+            </li>
+            <li @click="hideMenu()">
                 <RouterLink class="link" :to="{name: 'recipes'}">
                     Recipes
                 </RouterLink>
             </li>
-            <li>
-                <RouterLink class="link" :to="{name: 'recipes'}">
-                    Recipes
-                </RouterLink>
-            </li>
-            <li>
+            <li @click="hideMenu()">
                 <RouterLink class="link" :to="{name: 'recipes'}">
                     Recipes
                 </RouterLink>

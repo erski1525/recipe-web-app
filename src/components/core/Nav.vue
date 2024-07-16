@@ -101,6 +101,8 @@ const hideMenu = () => {
         background-color: white;
         height: 100vh;
         padding: 0 2rem;
+        z-index: 999;
+
     }
 
     .nav__list--mobile li{

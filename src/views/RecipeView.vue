@@ -1,21 +1,114 @@
 <template>
-    <h1>Pizza</h1>
-    <h3>Ingredients</h3>
-    <ul>
-        <li>cheese</li>
-        <li>ham</li>
-        <li>mushrooms</li>
-        <li>corn</li>
-    </ul>
-    <h3>Instructions</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti natus laboriosam voluptates cum voluptate eaque molestias corporis itaque! Corporis omnis deserunt odio quaerat tempore illum magni dignissimos voluptatum, necessitatibus nemo.
-    Tenetur aliquam vel voluptatibus optio dolorem est numquam! Tempora facilis, dolor optio aliquam repudiandae repellendus numquam corporis eligendi vero a voluptatem? Ut fuga minima molestias iste incidunt, repellat beatae? Dolorum?
-    Cupiditate, delectus enim ex deleniti rerum accusantium molestiae error animi neque perspiciatis optio officiis laborum rem laboriosam, doloribus quisquam libero quidem porro ut maiores. Magnam ducimus vitae deserunt ea corporis.
-    Pariatur, nihil tenetur? Iusto, voluptatum totam? Id laboriosam accusamus iure non asperiores dolores perferendis alias veritatis ducimus, tempora, sed reprehenderit quae vero distinctio aliquam. Alias tempora et vitae sunt? Quidem.
-    Et amet, iusto totam, saepe dicta velit autem molestiae error quasi maxime pariatur cupiditate explicabo corporis sit, ipsam nobis rem incidunt alias ex magni laboriosam dolores odio temporibus. Mollitia, doloribus?
-    Repudiandae aperiam earum distinctio atque eius illum harum perspiciatis dignissimos quos totam! Iste, est! Neque necessitatibus rerum earum nihil porro nulla delectus numquam tempora quis quae. Omnis architecto dolorum quam.
-    Explicabo velit voluptatibus, minima, rerum neque dolores sequi nemo rem libero voluptatem ullam sed quod optio dignissimos accusamus eius ducimus labore iste. Ad perspiciatis deleniti voluptatem beatae, placeat velit. Laudantium.
-    Nostrum sequi vero sunt deleniti sit et, rerum saepe commodi, laudantium distinctio consequuntur assumenda exercitationem odio cumque delectus quam iusto error non? In omnis blanditiis eos necessitatibus non explicabo eaque?
-    Vero soluta vitae laudantium ipsam quis, provident non praesentium obcaecati ipsa aperiam, id fuga nobis inventore maiores molestias suscipit officia sapiente laborum beatae nihil placeat odit est accusantium. Iusto, voluptatum!
-    Placeat quam deleniti est perferendis quaerat non exercitationem fugiat aut odit quia illum porro incidunt, consequuntur architecto inventore hic recusandae enim molestias minima accusantium voluptate. Vel tenetur dolor laboriosam. Illum.</p>
+    <div class="recipe">
+        <h1 class="title">Pizza</h1>
+        <div class="recipe__info">
+            <img class="img" src="/src/assets/default.jpg"/>
+            <div class="ingredients__wrapper">
+                <h3>Ingredients</h3>
+                <ul class="ingredients">
+                    <li class="ingredient"><p>cheese</p> <p>2 slices</p></li>
+                    <li class="ingredient"><p>cheese ham</p> <p>2 slices</p></li>
+                    <li class="ingredient"><p>mushrooms</p> <p>10</p></li>
+                    <li class="ingredient"><p>water</p> <p>1 cup</p></li>
+                    <li class="ingredient"><p>oregano</p> <p>1 pinch</p></li>
+                </ul>
+            </div>
+        </div>
+        <h3>Instructions</h3>
+        <div class="instructions__wrapper">
+            <div>
+                <h4>Step 1</h4>
+                <img class="instruction__img" src="/src/assets/default.jpg"/>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores iure ducimus labore! Ratione, sit accusamus quia animi, labore dolore eligendi, quod quasi est delectus modi odio ullam laborum mollitia.
+                Eligendi ex deserunt, debitis nemo soluta esse molestias, quasi accusantium eius cum vitae repellat recusandae pariatur placeat quos. Porro ipsum saepe consectetur voluptates culpa quas perspiciatis doloremque soluta recusandae magni?
+                </p>
+            </div>
+            <div>
+                <h4>Step 1</h4>
+                <img class="instruction__img" src="/src/assets/default.jpg"/>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores iure ducimus labore! Ratione, sit accusamus quia animi, labore dolore eligendi, quod quasi est delectus modi odio ullam laborum mollitia.
+                Eligendi ex deserunt, debitis nemo soluta esse molestias, quasi accusantium eius cum vitae repellat recusandae pariatur placeat quos. Porro ipsum saepe consectetur voluptates culpa quas perspiciatis doloremque soluta recusandae magni?
+                </p>
+            </div>
+            <div>
+                <h4>Step 1</h4>
+                <img class="instruction__img" src="/src/assets/default.jpg"/>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores iure ducimus labore! Ratione, sit accusamus quia animi, labore dolore eligendi, quod quasi est delectus modi odio ullam laborum mollitia.
+                Eligendi ex deserunt, debitis nemo soluta esse molestias, quasi accusantium eius cum vitae repellat recusandae pariatur placeat quos. Porro ipsum saepe consectetur voluptates culpa quas perspiciatis doloremque soluta recusandae magni?
+                </p>
+            </div>
+            <div>
+                <h4>Step 1</h4>
+                <img class="instruction__img" src="/src/assets/default.jpg"/>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores iure ducimus labore! Ratione, sit accusamus quia animi, labore dolore eligendi, quod quasi est delectus modi odio ullam laborum mollitia.
+                Eligendi ex deserunt, debitis nemo soluta esse molestias, quasi accusantium eius cum vitae repellat recusandae pariatur placeat quos. Porro ipsum saepe consectetur voluptates culpa quas perspiciatis doloremque soluta recusandae magni?
+                </p>
+            </div>
+            <div>
+                <h4>Step 1</h4>
+                <img class="instruction__img" src="/src/assets/default.jpg"/>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores iure ducimus labore! Ratione, sit accusamus quia animi, labore dolore eligendi, quod quasi est delectus modi odio ullam laborum mollitia.
+                Eligendi ex deserunt, debitis nemo soluta esse molestias, quasi accusantium eius cum vitae repellat recusandae pariatur placeat quos. Porro ipsum saepe consectetur voluptates culpa quas perspiciatis doloremque soluta recusandae magni?
+                </p>
+            </div>
+            
+        </div>
+    </div>
 </template>
+
+<style scoped>
+
+.recipe{
+    padding: 0 1em;
+}
+
+.img{
+    width: 100%;
+    border-radius: .5rem;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.ingredient{
+    display: flex;
+    gap: 1rem;
+    border-bottom: solid 1px var(--color-primary)
+}
+
+.ingredient > p{
+    width: 50%;
+}
+
+.instruction__img{
+    width: 100%;
+    border-radius: .5rem;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+@media (min-width: 800px) {
+    .img{
+        max-width: 50%;
+    }
+
+    .recipe__info{
+        display: flex;
+        justify-content: end;
+    }
+
+    .ingredients__wrapper{
+        padding-left: 1em;
+        width: 100%;
+    }
+
+    .instructions__wrapper{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+        
+    }
+}
+
+
+
+</style>

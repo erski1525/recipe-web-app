@@ -2,10 +2,14 @@
 import ClockIcon from '../icons/ClockIcon.vue';
 import CartIcon from '../icons/CartIcon.vue';
 import PersonIcon from '../icons/PersonIcon.vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
 </script>
 
 <template>
-<li class="recipe">
+<li class="recipe" @click="router.push({name: 'recipe', params: {id: 0}})">
     <div class="overlay">
         <img class="recipe__img" src="/src/assets/default.jpg"/>
     </div>
